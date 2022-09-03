@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    font-family: "Montserrat-black";
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: "Montserrat-black";
+    font-size: 2.5vw;
+    line-height: 1.5;
+    margin: 23% 20% auto 25%;
+}
+
+h2 {
+    font-family: "Montserrat-black";
+    font-size: 3vw;
+    line-height: 1.5;
+    margin: auto 20% auto 25%;
+}
+
+#title {
+    background-color: #1B2430;
+    width: 100%;
+}
+
+.navbar {
+    background-color: azure;
+    border-radius: 0.5rem;
+    width: 98%;
+    margin: 0px auto 0px auto;
+    border-top-width: 10px;
+    border-top-style: solid;
+    color: #1B2430;
+}
+
+.logo {
+    margin-left: 28px;
+}
+
+.nav-link {
+    color: #21275b;
+    margin: auto 35px;
+    font-size: 1.5vw;
+    padding: 5px;
+}
+
+.nav-link:hover {
+    color: rgb(236, 180, 107);
+
+}
+
+.nav-link:active {
+
+    color: #000000;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.hello {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: -4%;
+}
+
+.quotes {
+    width: 50%;
+    height: auto;
+    font-size: 1.1vw;
+    margin: auto 20% auto 25%;
+    color: rgba(255, 255, 255, 0.635);
+}
+
+.image-landing {
+    width: 50%;
+    height: auto;
+}
+
+.image {
+    width: 600px;
+    height: auto;
+    float: right;
+
+}
+
+.space {
+    padding-bottom: 5%;
+}
+
+.skills {
+    margin: 5% auto 5% auto;
+    text-align: center;
+
+
+}
+
+.skills h2,
+.work h2 {
+    color: #2e2e2e;
+
+}
+
+.horizontal {
+    width: 25%;
+    margin: 1% auto 1% 40%;
+
+}
+
+.skills .row-1 .img_skil img,
+.row-2 .img_skil-2 img {
+    width: 9%;
+    height: auto;
+    margin: 50px 25px 35px 25px;
+    display: inline-block;
+}
+
+.img_skil-1 img {
+    width: 10%;
+    height: auto;
+    margin: 50px 25px 35px 25px;
+
+}
+
+.work {
+    margin: 5% auto 10% auto;
+    text-align: center;
+
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+
+}
+
+.work {
+    width: 100%;
+    height: 100%;
+    margin: 5% auto 5% auto;
+
+}
+
+.margin {
+    margin: 5% auto 5% auto;
+    width: 310px;
+    height: 250px;
+
+}
+
+.image1 {
+    border: 1.5px solid #00000032;
+    border-radius: 8px;
+
+}
+
+.image1 img {
+    width: 300px;
+    height: 220px;
+    margin: auto auto;
+}
+
+.content {
+    width: 300px;
+    height: auto;
+    margin: 5% auto 5% auto;
+
+}
+
+.content img {
+    width: 300px;
+    height: 230px;
+    z-index: 100;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.content img:hover {
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    transition: 0.3s;
+    border: 3px sloid #000000;
+    opacity: 0;
+
+}
+
+.text-hover {
+    width: 300px;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    margin-top: -200px;
+    opacity: 1;
+}
+
+.text-hover:hover {
+    opacity: 0.1;
+    border: 2px solid #000000c4;
+    border-radius: 8px;
+}
+
+.marge h3 {
+    float: center;
+    margin: 5% auto 5% auto;
+    padding: 10px;
+
+}
+
+.para {
+    width: 90%;
+    margin: 5% auto 5% auto;
+    position: static;
+    cursor: pointer;
+
+}
+
+.text-secondary:hover {
+    color: #000000;
+}
+
+.icon {
+    margin-top: -11%;
+    float: right;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.icon img:hover {
+    opacity: 1;
+}
+
+.center {
+    text-align: center;
+    margin-top: -5%;
+    cursor: default;
+}
+
+@media (max-width:1200px) {
+    .image {
+        width: 650px;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width:992px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .image {
+        width: 450px;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width:768px) {
+    .nav-link {
+        font-size: 0.8rem;
+    }
+
+    .image {
+        width: 350px;
+        padding-bottom: 10%;
+        margin-right: -2em;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .hello,
+    .image-landing {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .hello {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: -20%;
+    }
+
+    .quotes {
+        width: 100%;
+        margin: auto auto auto 2.5%;
+    }
+
+    /* .image-landing{
+        margin-top: 5%;
+    } */
+    .image {
+        width: 100%;
+        margin: 5% auto 5% auto;
+    }
+
+    .margin {
+        margin: 5% auto 5% auto;
+        width: 300px;
+        height: 240px;
+
+    }
+
+    .image1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .para {
+        width: 70%;
+        font-size: 12px;
+        text-align: left;
+        position: relative;
+
+    }
+    .icon{
+        margin: auto auto;
+        float: right;
+    }
+    .foot-text{
+        font-size: 4vw;
+        float: left;
+    }
+   
+    
+
+}
