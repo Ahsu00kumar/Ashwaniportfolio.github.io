@@ -279,7 +279,9 @@ h2 {
 }
 
 @media (max-width:480px) {
-
+    h1,h2{
+        font-size: 16px;
+    }
     .hello,
     .image-landing {
         width: 100%;
@@ -288,19 +290,17 @@ h2 {
     }
 
     .hello {
-        font-size: 5rem;
+        font-size: 10rem;
         text-align: center;
         margin-top: -20%;
     }
 
     .quotes {
+        
         width: 100%;
         margin: auto auto auto 2.5%;
+        font-size:12px;
     }
-
-    /* .image-landing{
-        margin-top: 5%;
-    } */
     .image {
         width: 100%;
         margin: 5% auto 5% auto;
