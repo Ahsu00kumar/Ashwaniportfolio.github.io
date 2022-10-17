@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Montserrat-black";
+    font-family: 'Montserrat';
     padding: 0;
     align-items: center;
     justify-content: center;
@@ -8,14 +8,16 @@ body {
 }
 
 h1 {
-    font-family: "Montserrat-black";
+    font-family: 'Montserrat';
+    fint-weigth: 800;
     font-size: 2.5vw;
     line-height: 1.5;
     margin: 23% 20% auto 25%;
 }
 
 h2 {
-    font-family: "Montserrat-black";
+    font-family: 'Montserrat';
+    fint-weigth: 800;
     font-size: 3vw;
     line-height: 1.5;
     margin: auto 20% auto 25%;
